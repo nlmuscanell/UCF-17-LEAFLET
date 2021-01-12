@@ -18,7 +18,7 @@ function markerColor(depth) {
   switch (true) {
   case depth < 11:
     return "#72F318";
-  case depth < 30:
+  case depth < 31:
     return "#B4F318";
   case depth < 51:
     return "#F6EF03";
